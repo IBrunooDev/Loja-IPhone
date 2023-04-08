@@ -1,0 +1,225 @@
+html {
+	scroll-behavior: smooth;
+}
+
+
+
+body {
+	margin: 0;
+	padding: 0;
+	background-image: url("./icon-wallpaper/Wallpaper-1.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+
+
+/* Menu */
+header {
+	background-color: #ffffff00;
+	color: #fff;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 4px;
+	border-radius: 6px;
+
+}
+
+
+
+.logo img {
+	height: 50px;
+}
+
+
+nav ul {
+	list-style: none;
+	display: flex;
+}
+
+nav li {
+	margin: 0 10px;
+}
+
+nav a {
+	color: #ffffff92;
+	text-decoration: none;
+	font-size: 20px;
+	padding: 10px;
+	transition: all ease 1s;
+}
+
+nav a:hover {
+	background-color: #ffffff82;
+	color: #ffffff87;
+	border-radius: 30px;
+}
+
+
+
+/* Texto Principal */
+
+.animate {
+	color: #ffffff;
+	font-size: 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+
+
+/* Card Celular */
+
+.celular {
+	display: flex;
+	justify-content: space-between;
+}
+
+.caixa-2 {
+	display: flex;
+	justify-content: space-around;
+}
+
+.caixa-3 {
+	display: flex;
+	justify-content: space-around;
+}
+
+h2,
+h4 {
+	text-align: center;
+
+}
+
+.card {
+	border: 1px solid #050505;
+	border-radius: 30px;
+	padding: 2px;
+	margin: 1px;
+	margin-bottom: 20px;
+	max-width: 300px;
+	transition: all ease 1s;
+
+	transform: translateX(0) scale(0.9);
+
+}
+
+
+.card:hover {
+	transform: translateX(1px);
+}
+
+.card img {
+	width: 100%;
+	height: auto;
+	margin-bottom: 20px;
+}
+
+.card h2 {
+	font-size: 24px;
+	margin-bottom: 10px;
+
+
+}
+
+.card p {
+	font-size: 16px;
+	text-align: center;
+}
+
+/* Rodape */
+
+footer {
+	background-color: #3333332f;
+	color: #000000;
+	padding: 30px 0;
+}
+
+#container {
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+.row {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.col-md-4 {
+	width: 33.33%;
+}
+
+h3 {
+	font-size: 18px;
+	margin-bottom: 20px;
+}
+
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	margin-bottom: 10px;
+}
+
+a {
+	color: #090909;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+
+/* BOTAO */
+
+.btn {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+
+
+button {
+	background-color: #090909;
+	border: none;
+	color: white;
+	padding: 10px 20px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin-top: 10px;
+	cursor: pointer;
+	border-radius: 6px;
+
+	transform: translateX(0) scale(0.9);
+
+	transition: all ease 1s;
+}
+
+button:hover {
+	transform: translateX(1px);
+	background-color: #1d1d1d;
+}
+
+.teste {
+	margin-top: 35px;
+}
+
+hr {
+	border-color: #090909;
+}
+
+.bruno {
+	margin-left: 110px;
+}

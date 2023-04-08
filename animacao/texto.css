@@ -1,0 +1,25 @@
+.animate {
+    opacity: 0;
+    filter: blur(3px);
+    transition: 1s;
+}
+
+.animate.from-top {
+    transform: translateY(-150%);
+}
+
+.animate.show {
+    transform: translate(0);
+    filter: blur(0);
+    opacity: 1;
+}
+
+.efeito {
+    transition: transform 1s;
+    transform: translateX(0) scale(0.9);
+    margin-left: 120px;
+}
+
+.efeito :hover {
+    transform: translateX(10px) scale(1.2);
+}

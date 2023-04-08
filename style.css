@@ -1,0 +1,162 @@
+html {
+	scroll-behavior: smooth;
+}
+
+
+
+body {
+	margin: 0;
+	padding: 0;
+	background-image: url("./icon-wallpaper/Wallpaper-1.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+
+/* Menu */
+header {
+	background-color: #ffffff00;
+	color: #fff;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 4px;
+	border-radius: 6px;
+
+}
+
+
+
+.logo img {
+	height: 50px;
+}
+
+nav ul {
+	list-style: none;
+	display: flex;
+}
+
+nav li {
+	margin: 0 10px;
+}
+
+nav a {
+	color: #ffffff92;
+	text-decoration: none;
+	font-size: 20px;
+	padding: 10px;
+	transition: all ease 1s;
+}
+
+nav a:hover {
+	background-color: #ffffff82;
+	color: #ffffff87;
+	border-radius: 30px;
+}
+
+
+
+/* Texto Principal */
+
+.animate {
+	color: #ffffff;
+	font-size: 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+
+/* Produtos */
+
+.container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.card {
+	border: 1px solid #050505;
+	border-radius: 30px;
+	padding: 6px;
+	margin: 1px;
+	margin-bottom: 20px;
+	max-width: 300px;
+	text-align: center;
+
+	transition: all ease 1s;
+
+	transform: translateX(0) scale(0.9);
+}
+
+
+.card:hover{
+	transform: translateX(2px) ;
+}
+.card img {
+	width: 100%;
+	height: auto;
+	margin-bottom: 20px;
+}
+
+.card h2 {
+	font-size: 24px;
+	margin-bottom: 10px;
+}
+
+.card p {
+	font-size: 16px;
+}
+
+/* Rodape */
+
+footer {
+	background-color: #3333332f;
+	color: #000000;
+	padding: 30px 0;
+}
+
+#container {
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+.row {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.col-md-4 {
+	width: 33.33%;
+}
+
+h3 {
+	font-size: 18px;
+	margin-bottom: 20px;
+}
+
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	margin-bottom: 10px;
+}
+
+a {
+	color: #000000;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+
+hr{
+	border-color: #050505;
+}
